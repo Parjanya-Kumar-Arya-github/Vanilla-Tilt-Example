@@ -6,9 +6,10 @@
     background-color: rgba(117, 117, 255, 0.5);
 }
 
-body {
-    
-    background-color:blue;
+body { 
+    background: url(mypic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
