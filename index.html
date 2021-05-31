@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="mypic.png" alt="Parjanya's pic">
+            <a class="button">See Profile</a>
+        </div>
+    </div>
+</body>
+<script src="vanilla-tilt.min.js"></script>
+<script>
+    const element = document.querySelector(".box");
+    VanillaTilt.init(element);
+    element.addEventListener("tiltChange", callback);
+</script>
+
+</html>
