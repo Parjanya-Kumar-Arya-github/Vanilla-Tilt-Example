@@ -7,9 +7,8 @@
 }
 
 body {
-    background: url(mypic.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color:blue;
 }
 
 .container {
